@@ -1,0 +1,57 @@
+button {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+hr {
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.root {
+  text-align: center;
+}
+.button-broad {
+  width: 90px;
+}
+.button-high {
+  height: 90px;
+}
+
+#calculator {
+  width: 250px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+#calculation,
+#current {
+  height: 20px;
+  line-height: 20px;
+}
+#calculation {
+  float: right;
+  max-width: 180px;
+  overflow: auto;
+}
+#current {
+  text-align: center;
+}
+#display {
+  width: 200px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  margin: 15px auto;
+}
+#keyboard {
+  width: 205px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+#decimal {
+  margin-right: 60px;
+}
+#align-top {
+  height: 50px;
+  display: flex;
+}
